@@ -1,0 +1,74 @@
+body {
+    background-color: #ADD8E6; /* Baby Blue Background Color */
+    background-image: url('https://example.com/path-to-your-strawberry-image.png'); /* Replace with the actual URL of your strawberry image */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    background-size: cover; /* Ensures the image covers the whole background */
+    font-family: Arial, sans-serif; /* Sets a font for the page */
+    color: #333; /* Default text color */
+}
+
+.container {
+    max-width: 600px; /* Maximum width for the container */
+    margin: 0 auto; /* Centers the container */
+    padding: 20px; /* Adds padding around the content */
+    background-color: rgba(255, 255, 255, 0.8); /* White background with transparency */
+    border-radius: 10px; /* Rounds the corners of the container */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+h1 {
+    text-align: center; /* Centers the title */
+    color: #ff69b4; /* Pink color for the title */
+}
+
+.question p {
+    font-weight: bold; /* Makes the question text bold */
+    color: #ff69b4; /* Pink color for the questions */
+    font-size: 1.2em; /* Slightly larger font size for emphasis */
+    margin-bottom: 10px; /* Adds space below each question */
+}
+
+.options {
+    display: flex; /* Makes options line up horizontally */
+    flex-direction: column; /* Stacks options vertically */
+    margin: 10px 0; /* Adds space above and below the options */
+}
+
+.options input[type="radio"] {
+    display: none; /* Hides the default radio button */
+}
+
+.options label {
+    background-color: #ffebcd; /* Light background color for the box */
+    border: 2px solid #ff69b4; /* Pink border for the box */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Adds padding inside the box */
+    margin: 5px 0; /* Adds space between options */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.options input[type="radio"]:checked + label {
+    background-color: #ff69b4; /* Change background color when selected */
+    color: white; /* Change text color when selected */
+}
+
+footer {
+    text-align: center; /* Centers footer text */
+    margin-top: 20px; /* Adds space above footer */
+    font-size: 0.9em; /* Slightly smaller footer text */
+    color: #666; /* Gray color for footer text */
+}
+
+button {
+    background-color: #ff69b4; /* Pink button color */
+    color: white; /* White text color on button */
+    border: none; /* Removes border from button */
+    border-radius: 5px; /* Rounds corners of button */
+    padding: 10px 20px; /* Adds padding to button */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+}
+
+button:hover {
+    background-color: #ff1493; /* Darker pink on hover */
+}
